@@ -4,105 +4,94 @@
     {
         display: none;
     }
-   
-    
-
-
     .top-image1
     {
-        width: 100%;
+        width: 360px;
         display: block;
         height:400px;
     }
-     .section0
-     {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: 360px;
+    .section0
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100vw;
     }
-       
-    
     .section1
     {
-        
-        
         height: 900px;
-       
+        width:100vw;
     }
-    .logo2{
-        width:100px;
+    .logo2
+    {
+        width: 100px;
         height: 100px;
-       
-       
+        margin-left: 0em;
+        margin-top: -61px; 
     }
-    .history{
+    .history
+    {
         font-size: 15px;
-        width: 300px;
-        margin-top:-300px;
-        
-        
+        left: 0em;  
+        width:360px;
+        bottom: 27em;
     }
     .history1
     {
-        font-size: 25px;
-        line-height: 37px;
-        height: 150px;
-      
+        font-size: 1.7em;
+        line-height: 35px;
+        height: 100px;
+        padding: 0em 34px 0px 38px;
     }
-    .history2{
+    .history2
+    {
         font-size:15px;
-        height: 200px;
-        margin-top: -20px;
-       
+        padding: 0px 44px 0px 26px;
     }
-    .button-up{
-        
-            
-            flex-direction:column;
-            
-            
-            width:100%;
-            
-    
-        }
-        
-
-        .button1
-        {
-            margin-bottom: 41px;
-            margin-top: -43px;
+    .button-up
+    {
+        flex-direction:column;
+        padding:0px;
+        height: 125px;
+        margin-top: -23em;
            
-    
-        }
+    }
+  .button1
+    {
+        font-size: 17px;
+        margin-right: 0px;
+        width: 276px;
+        height: 45px;
+    }
+  .button2
+    {
+        font-size:17px;
+        width: 276px;
+        height: 45px;
+    }
         
     .keep
     {
-        
         width: 90%;
-        
-       
-        
+        margin: 0px;
         padding: 126px 10px 20px 10px;
     }
-    .keep1{
+    .keep1
+    {
         font-size: 25px;
         line-height: 37px;
 
     }
-    .keep2{
+    .keep2
+    {
         padding: 20px 10px 30px 10px;
         margin-left: -10px;
         font-size: 15px;
-       
-
-    }
-
-
-    
-    .section2{
+    } 
+    .section2
+    {
         
         display: flex;
         align-items: center;
@@ -112,38 +101,42 @@
         margin-top: 100px;
 
     }
-    .laptop{
+
+    .laptop
+    {
         display: flex;
     }
-    .laptop1{
+
+    .laptop1
+    {
         width:300px;
-        bottom: 177px;
-       
+        bottom: 177px; 
     }
-    .NOTES{
+
+    .NOTES
+    {
         height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: -88px;
-       
+        margin-top: -70px;
+        padding: 0px;    
     }
     .note h3
     {
         font-size: 21px;
-        padding: 15px;
-        text-align:  center;
+        padding: 0px 10px 0px 25px;
+        text-align: center;
+        margin-top: 13px;
     }
-    .note p{
+    .note p
+    {
         font-size: 15px;
-     
         padding: .5px 43px 20px ;
         text-align: center;
         line-height: 25px;
     }
-    
-    
     .notes4
     {
         height: 400px;
@@ -151,133 +144,146 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: -66px;
+        padding: 100px 10px 10px 20px;
     }
-    
-    
-    .notes4 h2{
+    .notes4 h2
+    {
         font-size: 23px;
         padding: 15px 30px;
         text-align: center;
-        margin-left: 27px;
-
+        margin-left: 0px;
     }
-    .notes4 p{
+    .notes4 p
+    {
         font-size: 15px;
         opacity: .7;
-        padding: .5px 29px 20px ;
-        
+        padding: 4px 8px 2px 94px;
         line-height: 25px;
 
     }
     .image-device1
     {
-        width: 360px;
-    padding: 10px 0px 13px 20px;
-    margin-top: -80px;
+        width: 320px;
+        margin-left: 24px;
+        margin-top: 30px;
     }
-    .down4{
-        
+    .down4
+    {
         align-items: center;
-        justify-content: center;
         flex-direction: column;
-        width:100%;
-        margin-top: -51px;
-
+        width:360px;
+        margin-top: -118px;
+        padding:0px;
     }
-    .icon{
+    .icon
+    {
         width: 38px;
-        height: 30px;
-        margin-left: 153px;
-        margin-top: 24px;
+        height: 34px;
+        margin-left: 9em;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
-    .create h3{
-        padding: 43px 32px 15px 93px;
+    .create h3
+    {
         font-size: 20px;
+        padding: 0px 0px 10px 83px;
     }
-    .create p{
+    .create p
+    {
         font-size: 15px;
         opacity: .5;
-        padding: 0px 38px 10px 20px;
-        margin-left: 14px;
-       
+        padding: 16px 20px 61px 49px;
         line-height: 25px;
-
+        width:360px;
     }
-    .icon1{
+    .create
+    {
+        bottom:-480px;
+    }
+    .create1
+    {
+        margin-left: -183px;
+        margin-top: -13px;
+        bottom:-500px;
+    }
+    .icon1
+    {
         width: 40px;
         height: 26px;
-        margin-top: 30px;
-        margin-left: 156px;
-
+        margin-left: 275px;
     }
-    .create1 h3{
-        padding: 30px 32px 15px 119px;
+    .create1 h3
+    {
+        padding: 0px 23px 22px 0px;
         font-size: 20px;
 
     }
-    .create1 p{
+    .create1 p
+    {
         font-size: 15px;
         opacity: .5;
-        padding: 0px 38px 10px 20px;
-        margin-left: 14px;
-        
+        padding: 0px 0px 10px 83px;
         line-height: 25px;
-
     }
-    .down5{
+    .down5
+    {
         height: 300px;
-        margin-top: 188px;
-        
-       
+        top:400px; 
     }
-    .gooogle{
+    .gooogle
+    {
         width: 100px;
+        padding: 0px;
+        left:70px;
+    }
+    .ibm
+    {
+        width: 100px;
+        padding: 42px 0px 25px 6px;
+    }
+    .microsoft
+    {
+        width: 110px;
+        padding: 21px 0px 10px 0px;
+
+    }
+    .hewiett
+    {
+        width:110px;
         padding: 35px 0px 10px 10px;
     }
-    .ibm{
-        width:90px;
-        padding: 35px 0px 10px 10px;
-    }
-    .microsoft{
+    .vector
+    {
         width:100px;
         padding: 35px 0px 10px 10px;
 
     }
-    .hewiett{
-        width:100px;
-        padding: 35px 0px 10px 10px;
+    .down6
+    {
+        margin-top:38em;
     }
-    .vector{
-        width:100px;
-        padding: 35px 0px 10px 10px;
-
-    }
-    .ClipboardIos1 h2{
+    .ClipboardIos1 h2
+    {
         font-size: 23px;
         text-align: center;
-        padding: 0px 53px 27px 55px;
-        line-height: 25px;
-        
+        padding: 0px 53px 20px 47px;
+        line-height: 25px;  
     }
-    .ClipboardIos1 p{
+    .ClipboardIos1 p
+    {
         font-size: 15px;
         opacity: .5;
-        padding: 4px 24px 18px 31px;
+        padding: 0px 35px 18px 37px;
+        line-height: 1.5;
         text-align: center;
-
     }
-    
     .button-down
     {
-        padding: 36px 27px 130px 27px;
+        padding: 36px 102px 130px 43px;
     }
-    .button2{
-        margin-top: -13px;
+    .button2
+    {
+        margin-top: 22px;
     }
     .social
     {
@@ -286,27 +292,24 @@
         margin-top: 20px;
         background-color:#F5F6F8;
     }
-    .logo3{
-        width: 40px;
-        height: 40px;
+    .logo3
+    {
+        width: 50px;
+        height: 50px;
         margin-top: 41px;
-        margin-left: 153px;
-         
+        margin-left: 153px; 
     }
     .query
-    
     {
-       
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content:center;
         text-align: center;
         font-size:15px;
-        opacity:.5;
+        opacity:.7;
         padding: 25px 10px 20px 10px;
         line-height: 50px;
-        
     }
     .social1
     {
@@ -316,20 +319,38 @@
         justify-content:center;
         display: inline-block;
         margin:20px;
-       
-       
-        
-
     }
-    .facebook{
+    .FAQ
+    {
+        margin-top:0px;
+        margin-left:0px;
+    }
+    .ContactUs
+    {
+        margin-left: 0px;
+    }
+    .PrivacyPolicy
+    {
+        margin-left:0px;
+        margin-top:0px;
+    }
+    .PressKit
+    {
+        margin-left:0px;
+    }
+    .install
+    {
+        margin-top:0px;
+        margin-left:0px;
+    }
+    .facebook
+    {
         margin-left: 100px;
         height: 20px;
         width: 20px;
-        
     }
     .twitter
     {
-        margin-left: 35px;
         width: 20px;
         height: 16px;
     }
@@ -338,6 +359,7 @@
         width: 20px;
         height: 20px;
         margin-left: 20px;
-
-
+    }
 }
+
+
